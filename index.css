@@ -91,7 +91,7 @@ body {
     }
 
     .topico-principal{
-        front-size: 36px;
+        font-size: 36px;
         color: #ff4dbc;
 
     }
@@ -139,22 +139,27 @@ body {
     .rodape-site{
         background-color: #724796;  
         display: flex;
-        width: 100%;
-        justify-content: baseline;
-        flex-direction: column;
-        height: 100px;
-        line-height: 25px;
-        padding-left: 50px;
-  
+        height: 30vh;
+        align-items: center;    
+      }
 
-    }
+      .estilos-icon{
+        font-size: 32px;
+        margin-right: 10px;
+      }
 
-        .linhas-rodape{
-            margin-bottom: 5px;
-            font-size: 15px;
+      .links{
+        text-decoration: none;
+        color: white;
+      }
+
+        .linhas-rodape li {
+            margin-bottom: 16px;
+            font-size: 18px;
             color: #fff;
             font-weight:700;
-            margin-left: 150px;
-        }
+            display: flex;
+            align-items: center;
+        }    
         
    
